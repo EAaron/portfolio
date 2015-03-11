@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+ .site-container{
+	
+	.site-header {
+
+			width:100%;
+			height:0;
+			min-height:0;
+			padding:0px 0px;
+			margin:0;
+			position:absolute;
+
+		.wrap{
+
+			padding:5px 0px;
+			.title-area{
+				padding-top:25px;
+				p.site-title{
+					a{
+						color:$darker-grey;	
+						outline:none;
+						border:none;
+						font-size: .85em;
+						font-family: "Roboto-Bold";
+						color:$white;
+						&:hover{
+							color:#f0f0f0;
+						}
+					}	
+				}
+			}
+
+			.header-widget-area {
+					width:auto;
+					position:relative;
+					padding:10px 0;
+					margin:0 auto;
+					float: right;
+
+				.widget_nav_menu{
+
+					.widget-wrap{
+
+						.nav-header{
+
+							.menu{
+
+								text-align: right;
+								width:auto;
+								position:relative;
+								margin:0 auto;
+
+								.menu-item{
+
+									font-size: 1.25em;
+									font-family: "Roboto-Regular";
+									font-variant: small-caps;
+
+									a{
+										color:$white;
+										&:hover{
+											color:#f0f0f0;
+										}
+									}
+								}
+							}
+						}
+					}
+				}	
+			}
+		}
+	}
+}
+
+.title-area {
+}
+
+.site-title {
+}
+
+.site-description {
+}
+
+
+
+
+
